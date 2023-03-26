@@ -100,3 +100,13 @@ main {
   background: var(--secondary-color);
   color: white;
 }
+
+/* Aside */
+aside {
+  grid-area: sidebar;
+  display: grid;
+  grid-row: 2;
+  grid-template-rows: repeat(3, max-content);
+  align-content: space-between;
+  border: 1px dashed;
+}
