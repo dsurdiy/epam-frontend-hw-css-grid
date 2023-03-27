@@ -110,3 +110,9 @@ aside {
   align-content: space-between;
   border: 1px dashed;
 }
+
+/* Footer */
+footer {
+  grid-area: footer;
+  border: 1px dashed;
+}
